@@ -1,0 +1,26 @@
+table input[type="checkbox"]{
+    width: 30px;  
+    height: 30px;  
+}
+
+table td:nth-child(2) {
+    text-align: center;
+}
+
+table td,
+table th {
+    text-align: center;
+}
+
+.sorted-ascending,
+.sorted-descending {
+    color: green;
+    cursor: pointer;
+}
+.sorted-descending span{
+    transform: rotate(180deg);
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fff;
+}
